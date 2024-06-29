@@ -5,7 +5,7 @@ HEADER = 64
 PORT = 5050
 FORMAT = "UTF-8"
 DISCONNECT_MESSAGE = "!DISCONNECT"
-SERVER = "10.0.0.1"  # My IP Address
+SERVER = "10.0.0.1"  # Your IP Address
 ADDR = (SERVER, PORT)
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
